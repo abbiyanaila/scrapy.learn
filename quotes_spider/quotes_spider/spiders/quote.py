@@ -1,4 +1,5 @@
-import scrapy
+from scrapy import Spider
+from scrapy.http import request
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
